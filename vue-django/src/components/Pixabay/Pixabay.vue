@@ -1,14 +1,14 @@
 <template>
   <b-container fluid class="p-4 bg-dark text-white">
     <b-row>
-<!--      <b-col md="6">
-        <b-form-input v-model="buscar" placeholder="Search" @keypress.enter="searchImages"></b-form-input>
-      </b-col>
-      <b-col md="1">
-        <b-button variant="danger" @click="searchImages">
-          Buscar
-        </b-button>
-      </b-col>-->
+      <!--      <b-col md="6">
+              <b-form-input v-model="buscar" placeholder="Search" @keypress.enter="searchImages"></b-form-input>
+            </b-col>
+            <b-col md="1">
+              <b-button variant="danger" @click="searchImages">
+                Buscar
+              </b-button>
+            </b-col>-->
       <b-col>
         <Buscador @buscarDesdeHijo="searchImages"/>
       </b-col>
